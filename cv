@@ -1,0 +1,5 @@
+pdflatex CV_es.tex
+
+pdflatex CV_en.tex
+
+rm *.out *.log *.aux
