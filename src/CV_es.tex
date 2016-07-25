@@ -1,36 +1,53 @@
 \documentclass[11pt,a4paper,sans,spanish]{moderncv}
 
+%% Graphics path
+\graphicspath{ {img/} }
+
 %% ModernCV themes
-\moderncvstyle{casual}
+\moderncvstyle{classic}
 \moderncvcolor{blue}
 \renewcommand{\familydefault}{\sfdefault}
 \nopagenumbers{}
 
-\definecolor{cyan}{RGB}{72, 155, 185}
+\definecolor{magenta}{RGB}{213, 8, 47}
+\definecolor{color1}{RGB}{243, 25, 83}
+\definecolor{color2}{RGB}{80, 80, 80}
+
+\renewcommand*{\namefont}{\fontsize{33}{38}\mdseries\upshape}
 
 %% Character encoding
 \usepackage[utf8]{inputenc}
 
 %% Language
-\usepackage[spanish]{babel}
-\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+%\usepackage[spanish]{babel}
+%\addto\shorthandsspanish{\spanishdeactivate{~<>}}
 
 %% Adjust the page margins
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.7]{geometry}
 
 %% Personal data
-\firstname{Cristian\\}
-\familyname{González Guerrero\protect\\[0.2em]}
+\firstname{}
+\familyname{}
 \address{Camino de Ronda 145 6ºF}{18003 Granada}
-\mobile{+34 665 096 842}
+\phone{+34 665 096 842}
 \email{guyik.cgg@gmail.com}
 \homepage{linkedin.com/in/cglezguerrero}
-\photo[100pt][0.4pt]{foto}
+\photo[100pt][0.0pt]{foto-rec}
 
 %%-------------------------------------
 %% Content
 %%-------------------------------------
 \begin{document}
+\begin{minipage}[c]{\textwidth-100pt-0.5em}
+    \begin{flushright}
+        \textbf{\Huge{Cristian\\\vspace{4pt}González Guerrero}}
+
+        \vspace{4pt}
+        \small{53741253-M}
+    \end{flushright}
+\end{minipage}
+\vspace{-5em}
+
 \makecvtitle
 
 
@@ -126,7 +143,7 @@ Matlab \quad{} GNU~Octave \quad{} Mathematica \quad{} LabView \quad{} wxMaxima \
 
 \section{Otras Competencias}
 \begin{center}
-Permiso~de~conducir~B \quad{} Carácter~fuertemente~emprendedor \quad{} Capacidad~de~liderazgo \quad{} Facilidad~para~hablar~en~público \quad{} Gestión~de~grandes~cantidades~de~información \quad{} Interés~en~el~arte~y~la~cultura \quad{} Interés~en~la~enseñanza
+Permiso~de~conducir~B \quad{} Carácter~fuertemente~emprendedor \quad{} Trabajo~en~equipo \quad{} Facilidad~para~hablar~en~público \quad{} Gestión~de~proyectos \quad{} Interés~en~el~arte~y~la~cultura \quad{} Interés~en~la~enseñanza
 \end{center}
 
 \end{document}
