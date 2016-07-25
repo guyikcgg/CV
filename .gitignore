@@ -5,4 +5,7 @@
 *.xcf
 *.log
 *.pdf
+*.dvi
+*.jpg
+*.jpeg
 
