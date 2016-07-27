@@ -7,7 +7,7 @@
 \moderncvstyle{classic}
 \moderncvcolor{blue}
 \renewcommand{\familydefault}{\sfdefault}
-\nopagenumbers{}
+%\nopagenumbers{}
 
 \definecolor{magenta}{RGB}{213, 8, 47}
 \definecolor{color1}{RGB}{243, 25, 83}
@@ -32,12 +32,14 @@
 \phone{+34 665 096 842\\+49 1744 023260\\}
 \email{guyik.cgg@gmail.com}
 \homepage{linkedin.com/in/cglezguerrero}
-\photo[110pt][0.0pt]{foto-rec}
+\photo[100pt][0.0pt]{foto_rec}
+\quote{Recent graduate in Telecommunications Technology Engineering with experience in entrepreneurship and low-level programming}
 
 %%-------------------------------------
 %% Content
 %%-------------------------------------
 \begin{document}
+%% Custom part of personal data
 \begin{minipage}[c]{\textwidth-110pt-0.5em}
     \begin{flushright}
         \textbf{\Huge{Cristian\\\vspace{4pt}González Guerrero}}
@@ -50,7 +52,40 @@
 
 \makecvtitle
 
+%% Working experience
+\section{Experiencia Laboral}
 
+\cventry{2016}
+{eesy-innovations GmbH}{Ingeniero en prácticas}{Múnic}{Alemania}
+{\textcolor{red}{(Calificación!!)}}
+
+\cventry{2016}
+{Infineon Technologies AG}{Ingeniero en prácticas}{Múnic}{Alemania}
+{\textcolor{red}{(Calificación!!)}}
+
+\cventry{2014 -- 2016}
+{SCOPE Junior Empresa}{Cofundador y presidente de la asociación}{}{}
+{Instructor del \emph{Curso de Introducción a LaTeX con LyX}, mayo de 2015.\\
+Instructor del taller \emph{Introducción al prototipado de PCBs}, noviembre de 2015.\\
+Instructor del taller \emph{LyX (con LaTeX)}, diciembre de 2015.}
+
+
+%% Languages
+\section{Idiomas}
+
+\cvitemwithcomment{Español}{Lengua materna}{~\\~}
+
+\cvitemwithcomment{Inglés}{Nivel avanzado}
+{B1 certificado por Trinity College London\\Nivel efectivo: B2}
+
+\cvitemwithcomment{Francés}{Nivel avanzado}
+{Idioma hablado durante el programa Erasmus\\Nivel efectivo: B2}
+
+\cvitemwithcomment{Alemán}{Nivel básico}
+{Curso intensivo durante la estancia en Múnic\\Nivel efectivo: A1} 
+
+
+%% Academic training
 \section{Formación Académica}
 
 \cventry{2010 -- 2015}
@@ -65,6 +100,7 @@ Sistema Digital de Extracción del Ritmo Cardíaco Fetal mediante Filtrado Adapt
 {Université Catholique de Louvain}{Louvain-la-Neuve}{Bélgica}{}
 
 
+%% Complementary training
 \section{Formación Complementaria}
 
 \cventry{2016}
@@ -88,36 +124,7 @@ Sistema Digital de Extracción del Ritmo Cardíaco Fetal mediante Filtrado Adapt
 {Obtenida la calificación de sobresaliente.}
 
 
-\section{Experiencia Laboral}
-
-\cventry{2016}
-{eesy-innovations GmbH}{Ingeniero en prácticas}{Múnic}{Alemania}
-{\textcolor{red}{(Calificación!!)}}
-
-\cventry{2016}
-{Infineon Technologies AG}{Ingeniero en prácticas}{Múnic}{Alemania}
-{\textcolor{red}{(Calificación!!)}}
-
-\cventry{2014 -- 2016}
-{SCOPE Junior Empresa}{Cofundador y presidente de la asociación}{}{}
-{Instructor del \emph{Curso de Introducción a LaTeX con LyX}, mayo de 2015.\\
-Instructor del taller \emph{Introducción al prototipado de PCBs}, noviembre de 2015.\\
-Instructor del taller \emph{LyX (con LaTeX)}, diciembre de 2015.}
-
-
-\section{Idiomas}
-
-\cvitemwithcomment{Español}{Lengua materna}{~\\~}
-
-\cvitemwithcomment{Inglés}{Nivel avanzado}
-{B1 certificado por Trinity College London\\Nivel efectivo: B2}
-
-\cvitemwithcomment{Francés}{Nivel avanzado}
-{Idioma hablado durante el programa Erasmus\\Nivel efectivo: B2}
-
-\cvitemwithcomment{Alemán}{Nivel básico}
-{Curso intensivo durante la estancia en Múnic\\Nivel efectivo: A1} 
-
+%% Technical skills
 \section{Habilidades Técnicas}
 
 \subsection{Electrónica e Industria}
@@ -179,10 +186,12 @@ Matlab \quad{} GNU~Octave \quad{} Mathematica \quad{} LabView \quad{} wxMaxima \
 \end{center}
 
 
+%% Other skills
 \section{Otras Competencias}
 \begin{center}
 Permiso~de~conducir~B \quad{} Carácter~fuertemente~emprendedor \quad{} Trabajo~en~equipo \quad{} Facilidad~para~hablar~en~público \quad{} Gestión~de~proyectos \quad{} Interés~en~el~arte~y~la~cultura \quad{} Interés~en~la~enseñanza
 \end{center}
+
 
 \end{document}
 
