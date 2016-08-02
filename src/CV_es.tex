@@ -1,0 +1,202 @@
+\documentclass[11pt,a4paper,sans,spanish]{moderncv}
+
+%% Graphics path
+\graphicspath{ {img/} }
+
+%% ModernCV themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\renewcommand{\familydefault}{\sfdefault}
+%\nopagenumbers{}
+
+\definecolor{magenta}{RGB}{213, 8, 47}
+%\definecolor{color1}{RGB}{243, 25, 83}
+%\definecolor{color2}{RGB}{80, 80, 80}
+
+\renewcommand*{\namefont}{\fontsize{33}{38}\mdseries\upshape}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+
+%% Language
+%\usepackage[spanish]{babel}
+%\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+
+%% Adjust the page margins
+\usepackage[scale=0.8]{geometry}
+
+%% Personal data
+\firstname{}
+\familyname{}
+\address{Alfonso XII 3 1º D}{29700 Vélez-Málaga}
+\phone{+34 665 096 842\\+49 1744 023260\\}
+\email{guyik.cgg@gmail.com}
+\homepage{linkedin.com/in/cglezguerrero}
+\photo[100pt][0.0pt]{foto_rec}
+\quote{Recent graduate in Telecommunications Technology Engineering with experience in entrepreneurship and low-level programming}
+
+%%-------------------------------------
+%% Content
+%%-------------------------------------
+\begin{document}
+%% Custom part of personal data
+\begin{minipage}[c]{\textwidth-110pt-0.5em}
+    \begin{flushright}
+        \textbf{\Huge{Cristian\\\vspace{4pt}González Guerrero}}
+
+        \vspace{4pt}
+        \small{53741253-M}
+    \end{flushright}
+\end{minipage}
+\vspace{-5em}
+
+\makecvtitle
+
+%% Working experience
+\section{Experiencia Laboral}
+
+\cventry{2016}
+{Infineon Technologies AG}{Ingeniero en prácticas (estancia de 4 meses)}{Múnich}{Alemania}
+{Diseño e implementación de sistemas embebidos, desde la concepción y arquitectura del software hasta su implementación y testeo final.\\
+Implementación de protocolos de red para su uso por aplicación multitarea.\\
+Diseño y auditoría de la seguridad.\\
+Diseño gráfico de pósters científico-técnicos y exposiciones.\\
+Redacción y elaboración de documentación.\\
+\href{http://secon2016.ieee-secon.org/content/demos-session}{\textbf{Premio a la mejor demo (IEEE SECON 2016)}}, por la exposición del proyecto \textbf{RedFixHop}.
+}
+
+\cventry{2016}
+{eesy-innovations GmbH}{Ingeniero en prácticas (estancia de 3 meses)}{Múnich}{Alemania}
+{Diseño e implementación de sistema de inventariado.\\
+Diseño e implementación de sistemas embebidos y de tiempo real.\\
+Control de calidad de circuitos impresos.\\
+\textbf{Premio especial del departamento Chip Card \& Security (CCS)}, por el proyecto \textbf{Internet of Things \& Security Shields}, en el Application Design Contest 2016, organizado por Infineon.}
+
+\cventry{2014 -- 2016}
+{SCOPE Junior Empresa}{Cofundador y presidente de la asociación}{}{}
+{Instructor del \emph{Curso de Introducción a LaTeX con LyX}, mayo de 2015.\\
+Instructor del taller \emph{Introducción al prototipado de PCBs}, noviembre de 2015.\\
+Instructor del taller \emph{LyX (con LaTeX)}, diciembre de 2015.
+}
+
+
+%% Languages
+\section{Idiomas}
+
+\cvitemwithcomment{Español}{Lengua materna}{~\\~}
+
+\cvitemwithcomment{Inglés}{Nivel avanzado}
+{B1 certificado por Trinity College London\\Nivel efectivo: B2}
+
+\cvitemwithcomment{Francés}{Nivel avanzado}
+{Idioma hablado durante el programa Erasmus\\Nivel efectivo: B2}
+
+\cvitemwithcomment{Alemán}{Nivel básico}
+{Curso intensivo durante la estancia en Múnich\\Nivel efectivo: A1} 
+
+
+%% Academic training
+\section{Formación Académica}
+
+\cventry{2010 -- 2015}
+{Grado en Ingeniería de Tecnologías de Telecomunicación, especialidad en Sistemas Electrónicos}
+{Universidad de Granada}{}{}
+{Nota media: 7,479 (sobre 10). 
+Trabajo Fin de Grado: 
+Sistema Digital de Extracción del Ritmo Cardíaco Fetal mediante Filtrado Adaptativo (9,8 sobre 10).}
+
+\cventry{2013 -- 2014}
+{Movilidad con programa Erasmus}
+{Université Catholique de Louvain}{Louvain-la-Neuve}{Bélgica}{}
+
+
+%% Complementary training
+\section{Formación Complementaria}
+
+\cventry{2016}
+{Machine learning}
+{Universidad de Stanford}{Coursera}{(100 horas)}
+{}
+
+\cventry{2014 -- 2015}
+{III Curso de Emprendedores/as Universitarios/as}
+{Aula Andalucía Emprende}{}{}
+{Obtenida la \textbf{mención a la 3ª mejor idea empresarial} por el proyecto \emph{Odisey}. }
+
+\cventry{2013}
+{Scratch: Iniciación a la Programación para Enseñanza Primaria y Secundaria. II~Edición}
+{Fundación General UGR-Empresa, CEVUG}{}{}
+{Obtenida la calificación de sobresaliente.}
+
+\cventry{2012}
+{IV Curso de Oratoria y Retórica}
+{Agrupación Centro de Cultura}{}{}
+{Obtenida la calificación de sobresaliente.}
+
+
+%% Technical skills
+\section{Habilidades Técnicas}
+
+\subsection{Electrónica e Industria}
+{Diseño, análisis y simulación de circuitos electrónicos analógicos y digitales, en alta y baja potencia.}\quad{}
+Prototipado y fabricación de circuitos impresos.\quad{}
+{Conocimientos avanzados en procesos de producción de PCB.}\quad{} 
+%\protect\\[0.3em]
+Diseño e implementación de soluciones embebidas y de tiempo real.\quad
+%\protect\\[0.3em]
+{Control y automatización de procesos industriales.}\quad
+Diseño y caracterización de sensores y electrónica de instrumentación.\quad
+{Conocimientos en robótica industrial.}\quad
+%\protect\\[0.3em]
+{Conocimientos en electrónica de potencia y redes de suministro.}
+
+\begin{center}
+\textcolor{cyan}{
+Proteus \quad{} NI~Multisim \quad{} PSpice \quad{}
+Agilent~ADS \quad{} VNA \quad{}
+PIC \quad{} XMC \quad{} Arduino \quad{} Raspberry~Pi \quad{}
+VHDL \quad{} Verilog \quad{} ModelSim \quad{}
+Eagle \quad{} Altium
+}
+\end{center}
+
+\subsection{Informática y Telemática}
+{Conocimientos en fundamentos de sistemas operativos y gestión de recursos.}\quad
+{Administración avanzada de sistemas informáticos.}\quad
+%\protect\\[0.3em]
+{Conocimientos básicos en bases de datos y tecnologías web.}\quad
+%\protect\\[0.3em]
+{Programación avanzada de soluciones en niveles cercanos a máquina.}\quad
+%\protect\\[0.3em]
+{Despliegue de servicios telemáticos en redes de telecomunicaciones. }\quad
+{Diseño, análisis, gestión y mantenimiento de redes y protocolos.}\quad
+%\protect\\[0.3em]
+{Conocimientos en virtualización y despliegue de servidores.}\quad
+
+\begin{center}
+\textcolor{cyan}{
+Linux \quad{} Minix \quad{} MS~Windows \quad{} C/C++ \quad{} JavaScript \quad{} Cisco \quad{} Apache2 
+}
+\end{center}
+
+\subsection{Otras}
+Conocimientos en sistemas de captación, tratamiento y extracción de información de señales de origen biológico y biosanitario.\quad
+%\protect\\[0.3em]
+Conocimientos avanzados en modelado y simulación de sistemas.\quad
+Conocimientos avanzados en tratamiento digital de señales.\quad
+%\protect\\[0.3em]
+Conocimientos avanzados en ofimática.\quad
+%\protect\\[0.3em]
+Conocimientos básicos en diseño gráfico.\quad
+Permiso de conducir B. \quad{} Carácter fuertemente emprendedor. \quad{} Trabajo en equipo. \quad{} Facilidad para hablar en público. \quad{} Gestión de proyectos. \quad{} Interés en el arte y la cultura. \quad{} Interés en la enseñanza.
+%\protect\\[0.3em]
+
+\begin{center}
+\textcolor{cyan}{
+Matlab \quad{} GNU~Octave \quad{} Mathematica \quad{} LabView \quad{} wxMaxima \quad{} LaTeX \quad{} LibreOffice \quad{} Gimp \quad{} Photoshop \quad{} Inkscape \quad{} AutoCAD
+}
+\end{center}
+
+
+\end{document}
+
