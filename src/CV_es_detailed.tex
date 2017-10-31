@@ -1,0 +1,210 @@
+\documentclass[11pt,a4paper,sans,spanish]{moderncv}
+
+%% Graphics path
+\graphicspath{ {img/} }
+
+%% ModernCV themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\renewcommand{\familydefault}{\sfdefault}
+%\nopagenumbers{}
+
+\definecolor{magenta}{RGB}{213, 8, 47}
+%\definecolor{color1}{RGB}{243, 25, 83}
+%\definecolor{color2}{RGB}{80, 80, 80}
+
+\renewcommand*{\namefont}{\fontsize{33}{38}\mdseries\upshape}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+
+%% Language
+%\usepackage[spanish]{babel}
+%\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+
+%% Adjust the page margins
+\usepackage[scale=0.8]{geometry}
+
+%% Color links
+\newcommand{\colorhref}[3][color1]{\href{#2}{\color{#1}{\underline{#3}}}}
+
+%% Personal data
+\firstname{}
+\familyname{}
+\address{Federico García Lorca 4 7B}{18014 Granada}
+\phone{+34 634 511 696}
+\email{guyik.cgg@gmail.com}
+\homepage{linkedin.com/in/cglezguerrero}
+\photo[100pt][0.0pt]{foto_rec}
+\quote{Graduado en Ingeniería de Tecnologías de la Telecomunicación con experiencia en programación de sistemas embebidos.}
+
+%%-------------------------------------
+%% Content
+%%-------------------------------------
+\begin{document}
+%% Custom part of personal data
+\begin{minipage}[c]{\textwidth-110pt-0.2em}
+    \begin{flushright}
+        \textbf{\Huge{Cristian\\\vspace{4pt}González Guerrero}}
+
+        \vspace{4pt}
+        \small{53741253-M}
+    \end{flushright}
+\end{minipage}
+\vspace{-5em}
+
+\makecvtitle
+
+%% Working experience
+\section{Experiencia Laboral}
+
+\cventry{jun 2017 -- sep 2017}
+{Infineon Technologies AG (a través de un contrato con la Universidad de Granada)}
+{Desarrollador de Sistemas Empotrados}{Granada}{}
+{\emph{Llevando a  cabo las tareas de:} Implementación de protocolos seguros para la comunicación con chips de cifrado y firma electrónica.
+Desarrollo y adaptación de software en sistemas embebidos RTOS.
+Programación en C de microcontroladores basados en ARM Cortex-M.
+}
+
+\cventry{dic 2016 -- feb 2017}
+{eesy-innovations GmbH (a través de la Fundación General UGR-Empresa)}
+{Desarrollador de Sistemas Empotrados}{Granada}{}
+{\emph{Llevando a  cabo las tareas de:} Implementación de protocolo TLS para la seguridad de los datos en dispositivos empotrados para Internet of Things.
+Redacción y elaboración de documentación.
+}
+
+\cventry{jun 2016 -- sep 2016}
+{Infineon Technologies AG}{Ingeniero en prácticas (estancia de 4 meses)}{Múnich}{Alemania}
+{\emph{Llevando a  cabo las tareas de:} Diseño e implementación de sistemas embebidos, desde la concepción y arquitectura del software hasta su implementación y testeo final.\\
+Implementación de protocolos de red para su uso por aplicación multitarea.
+Diseño y auditoría de la seguridad.
+Diseño gráfico de pósters científico-técnicos y exposiciones.
+\colorhref{http://secon2016.ieee-secon.org/content/demos-session}{Premio a la mejor demo (IEEE SECON 2016)}, por la exposición del proyecto \textbf{RedFixHop}.
+}
+
+\cventry{mar 2016 -- may 2016}
+{eesy-innovations GmbH}{Ingeniero en prácticas (estancia de 3 meses)}{Múnich}{Alemania}
+{\emph{Llevando a  cabo las tareas de:} Diseño e implementación de sistema de inventariado.
+Diseño e implementación de sistemas embebidos y de tiempo real.
+Control de calidad de circuitos impresos.
+\textbf{Premio especial del departamento Chip Card \& Security (CCS)}, por el proyecto \textbf{Internet of Things \& Security Shields}, en el Application Design Contest 2016, organizado por Infineon.}
+
+
+%% Languages
+\section{Idiomas}
+
+\cvitemwithcomment{Español}{Lengua materna}{~\\~}
+
+\cvitemwithcomment{Inglés}{Nivel avanzado}
+{Certificado CAE de Cambridge (equivalente a C1)\\Nivel efectivo: C1}
+
+\cvitemwithcomment{Francés}{Nivel avanzado}
+{Idioma hablado durante el programa Erasmus\\Nivel efectivo: B2}
+
+\cvitemwithcomment{Alemán}{Nivel básico}
+{Curso intensivo durante la estancia en Múnich\\Nivel efectivo: A1}
+
+
+%% Academic training
+\section{Formación Académica}
+
+\cventry{oct 2016 -- \\jul 2018'}
+{Máster en Ciencia de Datos e Ingeniería de Computadores}
+{Universidad de Granada}{}{}
+{'Formación actualente en curso}
+
+\cventry{oct 2010 -- sep 2015}
+{Grado en Ingeniería de Tecnologías de Telecomunicación, especialidad en Sistemas Electrónicos}
+{Universidad de Granada}{}{}
+{Nota media: 7,479 (sobre 10).
+Trabajo Fin de Grado:
+Sistema Digital de Extracción del Ritmo Cardíaco Fetal mediante Filtrado Adaptativo (9,8 sobre 10).}
+
+\cventry{sep 2013 -- ago 2014}
+{Movilidad con programa Erasmus}
+{Université Catholique de Louvain}{Louvain-la-Neuve}{Bélgica}
+{Colaboración con la asociación por la divulgación de la lengua de signos \emph{KAP Signes.}}
+
+
+%% Complementary training
+\section{Formación Complementaria}
+
+\cventry{jul 2016 -- ago 2016}
+{Machine learning}
+{Universidad de Stanford}{Coursera}{}
+{}
+
+\cventry{nov 2014 -- feb 2015}
+{III Curso de Emprendedores/as Universitarios/as}
+{Aula Andalucía Emprende}{}{}
+{Obtenida la \colorhref{http://empleo2.ugr.es/noticia/elevator-pitch-presenta-tu-idea-empresarial}{mención a la 3ª mejor idea empresarial} por el proyecto \emph{Odisey}. }
+
+
+%% Technical skills
+\section{Habilidades Técnicas}
+
+\subsection{Informática y Telemática}
+{Conocimientos en fundamentos de sistemas operativos y gestión de recursos.}\quad
+{Administración avanzada de sistemas informáticos.}\quad
+%\protect\\[0.3em]
+{Conocimientos en bases de datos y tecnologías web.}\quad
+%\protect\\[0.3em]
+{Programación avanzada de soluciones en niveles cercanos a máquina.}\quad
+%\protect\\[0.3em]
+{Diseño, análisis, gestión y mantenimiento de redes y protocolos.}\quad
+%\protect\\[0.3em]
+{Conocimientos en virtualización y despliegue de servidores.}\quad
+{Experiencia con metodologías ágiles, control de versiones y sistemas de ticketing.}\quad
+{Experiencia con protocolos de comunicación IoT.}
+
+\begin{center}
+\textcolor{cyan}{
+Linux \quad{} Minix \quad{} MS~Windows \quad{} C/C++ \quad{} SVN \quad{} Git \quad{}
+Github \quad{} Bitbucket \quad{} Jira \quad{} TCP/IP \quad{} HTTP \quad{}
+MQTT \quad{} SSL/TLS \quad{} Cisco
+}
+\end{center}
+
+\subsection{Desarrollo web}
+{Desarrollo de aplicaciones web, desde la concepción y diseño de interfaces hasta el testeo final.}\quad
+{Desarrollo frontend y backend con múltiples tecnologías.}\quad
+%\protect\\[0.3em]
+{Diseño de bases de datos relacionales y no relacionales.}\quad
+%\protect\\[0.3em]
+{Implementación y personalización de CMS.}\quad
+%\protect\\[0.3em]
+{Despliegue de servidores en redes de telecomunicaciones.}
+
+\begin{center}
+\textcolor{cyan}{
+HTML5 \quad{} CSS3 \quad{} Bootstrap \quad{} JavaScript \quad{} jQuery \quad{}
+Ajax \quad{} SQL \quad{} MongoDB \quad{} JSON \quad{} XML \quad{} PHP \quad{}
+NodeJS \quad{} Apache2 \quad{} Django
+}
+\end{center}
+
+\subsection{Otras habilidades y logros}
+\colorhref{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7733012&isnumber=7732953}{Participación en congresos internacionales.}\quad
+Conocimientos en ciencia de datos.
+Conocimientos avanzados en modelado y simulación de sistemas.\quad
+Conocimientos avanzados en tratamiento digital de señales.\quad
+\colorhref{https://valeoinnovationchallenge.valeo.com/news/interviews/introducing-team-ecopilot}{Semifinalista en Valeo Innovation Challenge 2017},
+con el proyecto \colorhref{http://myecopilot.com}{ECOpilot}.\quad
+Conocimientos en sistemas de captación, tratamiento y extracción de información de señales de origen biológico y biosanitario.\quad
+%\protect\\[0.3em]
+Conocimientos avanzados en electrónica y robótica.\quad
+%\protect\\[0.3em]
+Conocimientos avanzados en ofimática.\quad
+%\protect\\[0.3em]
+Conocimientos en diseño gráfico.\quad
+Permiso de conducir B. \quad{} Carácter fuertemente emprendedor. \quad{} Trabajo en equipo. \quad{} Facilidad para hablar en público. \quad{} Gestión de proyectos. \quad{} Interés en el arte y la cultura. \quad{} Interés en la enseñanza.
+%\protect\\[0.3em]
+
+\begin{center}
+\textcolor{cyan}{
+Matlab \quad{} GNU~Octave \quad{} R \quad{} Mathematica \quad{} LabView \quad{} wxMaxima \quad{} LaTeX \quad{} LibreOffice \quad{} Gimp \quad{} Photoshop \quad{} Inkscape \quad{} AutoCAD
+}
+\end{center}
+
+
+\end{document}
