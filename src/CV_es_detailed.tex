@@ -25,11 +25,14 @@
 %% Adjust the page margins
 \usepackage[scale=0.8]{geometry}
 
+%% Color links
+\newcommand{\colorhref}[3][color1]{\href{#2}{\color{#1}{\underline{#3}}}}
+
 %% Personal data
 \firstname{}
 \familyname{}
 \address{Federico García Lorca 4 7B}{18014 Granada}
-\phone{+34 634 511 696}%\\+49 1744 023260\\}
+\phone{+34 634 511 696}
 \email{guyik.cgg@gmail.com}
 \homepage{linkedin.com/in/cglezguerrero}
 \photo[100pt][0.0pt]{foto_rec}
@@ -55,43 +58,36 @@
 %% Working experience
 \section{Experiencia Laboral}
 
-\cventry{2017}
+\cventry{jun 2017 -- sep 2017}
 {Infineon Technologies AG (a través de un contrato con la Universidad de Granada)}
 {Desarrollador de Sistemas Empotrados}{Granada}{}
-{Implementación de protocolos de seguridad para la comunicación con chips de cifrado y firma electrónica.\\
-Desarrollo y adaptación de software en sistemas embebidos RTOS.\\
-Programación en C de microcontroladores basados en ARM Cortex-M.\\
+{\emph{Llevando a  cabo las tareas de:} Implementación de protocolos seguros para la comunicación con chips de cifrado y firma electrónica.
+Desarrollo y adaptación de software en sistemas embebidos RTOS.
+Programación en C de microcontroladores basados en ARM Cortex-M.
 }
 
-\cventry{2016 -- 2017}
-{eesy-innovations GmbH (a través de un contrato con la Fundación General UGR-Empresa)}
+\cventry{dic 2016 -- feb 2017}
+{eesy-innovations GmbH (a través de la Fundación General UGR-Empresa)}
 {Desarrollador de Sistemas Empotrados}{Granada}{}
-{Implementación de protocolo TLS para la seguridad de los datos en dispositivos empotrados para Internet of Things.\\
-Redacción y elaboración de documentación.\\
+{\emph{Llevando a  cabo las tareas de:} Implementación de protocolo TLS para la seguridad de los datos en dispositivos empotrados para Internet of Things.
+Redacción y elaboración de documentación.
 }
 
-\cventry{2016}
+\cventry{jun 2016 -- sep 2016}
 {Infineon Technologies AG}{Ingeniero en prácticas (estancia de 4 meses)}{Múnich}{Alemania}
-{Diseño e implementación de sistemas embebidos, desde la concepción y arquitectura del software hasta su implementación y testeo final.\\
-Implementación de protocolos de red para su uso por aplicación multitarea.\\
-Diseño y auditoría de la seguridad.\\
-Diseño gráfico de pósters científico-técnicos y exposiciones.\\
-\href{http://secon2016.ieee-secon.org/content/demos-session}{\textbf{Premio a la mejor demo (IEEE SECON 2016)}}, por la exposición del proyecto \textbf{RedFixHop}.
+{\emph{Llevando a  cabo las tareas de:} Diseño e implementación de sistemas embebidos, desde la concepción y arquitectura del software hasta su implementación y testeo final.\\
+Implementación de protocolos de red para su uso por aplicación multitarea.
+Diseño y auditoría de la seguridad.
+Diseño gráfico de pósters científico-técnicos y exposiciones.
+\colorhref{http://secon2016.ieee-secon.org/content/demos-session}{Premio a la mejor demo (IEEE SECON 2016)}, por la exposición del proyecto \textbf{RedFixHop}.
 }
 
-\cventry{2016}
+\cventry{mar 2016 -- may 2016}
 {eesy-innovations GmbH}{Ingeniero en prácticas (estancia de 3 meses)}{Múnich}{Alemania}
-{Diseño e implementación de sistema de inventariado.\\
-Diseño e implementación de sistemas embebidos y de tiempo real.\\
-Control de calidad de circuitos impresos.\\
+{\emph{Llevando a  cabo las tareas de:} Diseño e implementación de sistema de inventariado.
+Diseño e implementación de sistemas embebidos y de tiempo real.
+Control de calidad de circuitos impresos.
 \textbf{Premio especial del departamento Chip Card \& Security (CCS)}, por el proyecto \textbf{Internet of Things \& Security Shields}, en el Application Design Contest 2016, organizado por Infineon.}
-
-\cventry{2014 -- 2016}
-{SCOPE Junior Empresa}{Cofundador y presidente de la asociación}{}{}
-{Instructor del \emph{Curso de Introducción a LaTeX con LyX}, mayo de 2015.\\
-Instructor del taller \emph{Introducción al prototipado de PCBs}, noviembre de 2015.\\
-Instructor del taller \emph{LyX (con LaTeX)}, diciembre de 2015.
-}
 
 
 %% Languages
@@ -112,19 +108,19 @@ Instructor del taller \emph{LyX (con LaTeX)}, diciembre de 2015.
 %% Academic training
 \section{Formación Académica}
 
-\cventry{2016 -- 2018}
+\cventry{oct 2016 -- \\jul 2018'}
 {Máster en Ciencia de Datos e Ingeniería de Computadores}
 {Universidad de Granada}{}{}
-{En curso}
+{'Formación actualente en curso}
 
-\cventry{2010 -- 2015}
+\cventry{oct 2010 -- sep 2015}
 {Grado en Ingeniería de Tecnologías de Telecomunicación, especialidad en Sistemas Electrónicos}
 {Universidad de Granada}{}{}
 {Nota media: 7,479 (sobre 10).
 Trabajo Fin de Grado:
 Sistema Digital de Extracción del Ritmo Cardíaco Fetal mediante Filtrado Adaptativo (9,8 sobre 10).}
 
-\cventry{2013 -- 2014}
+\cventry{sep 2013 -- ago 2014}
 {Movilidad con programa Erasmus}
 {Université Catholique de Louvain}{Louvain-la-Neuve}{Bélgica}
 {Colaboración con la asociación por la divulgación de la lengua de signos \emph{KAP Signes.}}
@@ -133,88 +129,80 @@ Sistema Digital de Extracción del Ritmo Cardíaco Fetal mediante Filtrado Adapt
 %% Complementary training
 \section{Formación Complementaria}
 
-\cventry{2016}
+\cventry{jul 2016 -- ago 2016}
 {Machine learning}
 {Universidad de Stanford}{Coursera}{}
 {}
 
-\cventry{2014 -- 2015}
+\cventry{nov 2014 -- feb 2015}
 {III Curso de Emprendedores/as Universitarios/as}
 {Aula Andalucía Emprende}{}{}
-{Obtenida la \textbf{mención a la 3ª mejor idea empresarial} por el proyecto \emph{Odisey}. }
-
-\cventry{2013}
-{Scratch: Iniciación a la Programación para Enseñanza Primaria y Secundaria. II~Edición}
-{Fundación General UGR-Empresa, CEVUG}{}{}
-{Obtenida la calificación de sobresaliente.}
-
-\cventry{2012}
-{IV Curso de Oratoria y Retórica}
-{Agrupación Centro de Cultura}{}{}
-{Obtenida la calificación de sobresaliente.}
+{Obtenida la \colorhref{http://empleo2.ugr.es/noticia/elevator-pitch-presenta-tu-idea-empresarial}{mención a la 3ª mejor idea empresarial} por el proyecto \emph{Odisey}. }
 
 
 %% Technical skills
 \section{Habilidades Técnicas}
 
-\subsection{Electrónica e Industria}
-{Diseño, análisis y simulación de circuitos electrónicos analógicos y digitales, en alta y baja potencia.}\quad{}
-Prototipado y fabricación de circuitos impresos.\quad{}
-{Conocimientos avanzados en procesos de producción de PCB.}\quad{}
-%\protect\\[0.3em]
-Diseño e implementación de soluciones embebidas y de tiempo real.\quad
-%\protect\\[0.3em]
-{Control y automatización de procesos industriales.}\quad
-Diseño y caracterización de sensores y electrónica de instrumentación.\quad
-{Conocimientos en robótica industrial.}\quad
-%\protect\\[0.3em]
-{Conocimientos en electrónica de potencia y redes de suministro.}
-
-\begin{center}
-\textcolor{cyan}{
-Proteus \quad{} NI~Multisim \quad{} PSpice \quad{}
-Agilent~ADS \quad{} VNA \quad{}
-PIC \quad{} XMC \quad{} ARM Cortex-M \quad{} Arduino \quad{} Raspberry~Pi \quad{}
-VHDL \quad{} Verilog \quad{} ModelSim \quad{}
-Eagle \quad{} Altium \quad{} I2C \quad{} SPI
-}
-\end{center}
-
 \subsection{Informática y Telemática}
 {Conocimientos en fundamentos de sistemas operativos y gestión de recursos.}\quad
 {Administración avanzada de sistemas informáticos.}\quad
 %\protect\\[0.3em]
-{Conocimientos básicos en bases de datos y tecnologías web.}\quad
+{Conocimientos en bases de datos y tecnologías web.}\quad
 %\protect\\[0.3em]
 {Programación avanzada de soluciones en niveles cercanos a máquina.}\quad
 %\protect\\[0.3em]
-{Despliegue de servicios telemáticos en redes de telecomunicaciones. }\quad
 {Diseño, análisis, gestión y mantenimiento de redes y protocolos.}\quad
 %\protect\\[0.3em]
 {Conocimientos en virtualización y despliegue de servidores.}\quad
+{Experiencia con metodologías ágiles, control de versiones y sistemas de ticketing.}\quad
 {Experiencia con protocolos de comunicación IoT.}
 
 \begin{center}
 \textcolor{cyan}{
-Linux \quad{} Minix \quad{} MS~Windows \quad{} C/C++ \quad{} JavaScript \quad{} Cisco \quad{} Apache2
+Linux \quad{} Minix \quad{} MS~Windows \quad{} C/C++ \quad{} SVN \quad{} Git \quad{}
+Github \quad{} Bitbucket \quad{} Jira \quad{} TCP/IP \quad{} HTTP \quad{}
+MQTT \quad{} SSL/TLS \quad{} Cisco
 }
 \end{center}
 
-\subsection{Otras}
-\href{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7733012&isnumber=7732953}{Participación en congresos internacionales en el campo de redes inalámbricas.}\quad Conocimientos en sistemas de captación, tratamiento y extracción de información de señales de origen biológico y biosanitario.\quad
+\subsection{Desarrollo web}
+{Desarrollo de aplicaciones web, desde la concepción y diseño de interfaces hasta el testeo final.}\quad
+{Desarrollo frontend y backend con múltiples tecnologías.}\quad
 %\protect\\[0.3em]
+{Diseño de bases de datos relacionales y no relacionales.}\quad
+%\protect\\[0.3em]
+{Implementación y personalización de CMS.}\quad
+%\protect\\[0.3em]
+{Despliegue de servidores en redes de telecomunicaciones.}
+
+\begin{center}
+\textcolor{cyan}{
+HTML5 \quad{} CSS3 \quad{} Bootstrap \quad{} JavaScript \quad{} jQuery \quad{}
+Ajax \quad{} SQL \quad{} MongoDB \quad{} JSON \quad{} XML \quad{} PHP \quad{}
+NodeJS \quad{} Apache2 \quad{} Django
+}
+\end{center}
+
+\subsection{Otras habilidades y logros}
+\colorhref{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7733012&isnumber=7732953}{Participación en congresos internacionales.}\quad
+Conocimientos en ciencia de datos.
 Conocimientos avanzados en modelado y simulación de sistemas.\quad
 Conocimientos avanzados en tratamiento digital de señales.\quad
+\colorhref{https://valeoinnovationchallenge.valeo.com/news/interviews/introducing-team-ecopilot}{Semifinalista en Valeo Innovation Challenge 2017},
+con el proyecto \colorhref{http://myecopilot.com}{ECOpilot}.\quad
+Conocimientos en sistemas de captación, tratamiento y extracción de información de señales de origen biológico y biosanitario.\quad
+%\protect\\[0.3em]
+Conocimientos avanzados en electrónica y robótica.\quad
 %\protect\\[0.3em]
 Conocimientos avanzados en ofimática.\quad
 %\protect\\[0.3em]
-Conocimientos básicos en diseño gráfico.\quad
+Conocimientos en diseño gráfico.\quad
 Permiso de conducir B. \quad{} Carácter fuertemente emprendedor. \quad{} Trabajo en equipo. \quad{} Facilidad para hablar en público. \quad{} Gestión de proyectos. \quad{} Interés en el arte y la cultura. \quad{} Interés en la enseñanza.
 %\protect\\[0.3em]
 
 \begin{center}
 \textcolor{cyan}{
-Matlab \quad{} GNU~Octave \quad{} Mathematica \quad{} LabView \quad{} wxMaxima \quad{} LaTeX \quad{} LibreOffice \quad{} Gimp \quad{} Photoshop \quad{} Inkscape \quad{} AutoCAD
+Matlab \quad{} GNU~Octave \quad{} R \quad{} Mathematica \quad{} LabView \quad{} wxMaxima \quad{} LaTeX \quad{} LibreOffice \quad{} Gimp \quad{} Photoshop \quad{} Inkscape \quad{} AutoCAD
 }
 \end{center}
 
