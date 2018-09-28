@@ -16,7 +16,7 @@ en: CV_en.pdf
 	mv $<.pdf $<
 
 CV_en.pdf: src/CV_en.tex
-	pdflatex src/CV_en.tex
+	pdflatex $<
 
 es_detailed: CV_es_detailed.pdf
 	gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE -dQUIET -dBATCH -sOutputFile=$<.pdf $<
